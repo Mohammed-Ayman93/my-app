@@ -1,0 +1,134 @@
+:root{
+    --main_color : #26b7e7
+}
+.super_container .solid_bar{
+    background-color: #eeeded;
+}
+.super_container .solid_bar .social{
+    font-size: 35px;
+}
+
+.super_container .solid_bar .contact{
+    height: 50px;
+    line-height: 50px;
+}
+.super_container .main_navbar{
+    height: 120px;
+    line-height: 88px;
+    position: sticky ;
+    top: 0 ;
+    z-index: 10 ;
+    background-color: white;
+}
+.super_container .header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8) ) ,  url("../Imagies/slider/slide_1.jpg") ;
+    background-size: cover;
+}
+
+.super_container .header .main{
+    margin-top: 250px;
+}
+.super_container .info{
+    height: 300px;
+}
+.super_container .info .container .row .icons{
+    border: solid 2px var(--main_color) ;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 35px;
+}
+.super_container .languges{
+    height: 525px;
+    background-color: #eeeded;
+}
+.super_container .languges .container .row .desc,
+.super_container .languges .container .row .bars{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.super_container .languges .container .row .bars .progress{
+    height: 35px;
+    margin-bottom: 30px;
+    line-height: 35px;
+    
+}
+.super_container .languges .container .row .bars .progress span{
+    flex-direction: row;
+}
+.super_container .languges .container .row .bars .progress span:last-child{
+    direction: rtl;
+}
+.super_container .languges .container .row .bars .progress .progress-bar{
+    justify-content: space-between;
+    padding: 0 10px;
+    flex-direction: row;
+}
+.super_container .services{
+    height: 800px;
+}
+.super_container .services .container{
+    margin-top: 100px;
+}
+.super_container .services .container h1:after{
+    content: "";
+    width: 35px;
+    height: 3px;
+    background-color: var(--main_color);
+    display: block;
+    margin: 10px auto;
+}
+.super_container .services .row .icon{
+    border: solid 2px var(--main_color) ;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 35px;
+}
+.super_container .PORTFOLIO .container h1:after{
+    content: "";
+    width: 35px;
+    height: 3px;
+    background-color: var(--main_color);
+    display: block;
+    margin: 10px auto;
+}
+.super_container .PORTFOLIO .container .links a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.super_container .PORTFOLIO .container .links a:hover{
+    color: var(--main_color);
+}
+.super_container .main_navbar .container .navbar .container-fluid .collapse ul li a:hover,
+.super_container .main_navbar .container .navbar .container-fluid .collapse .nav-link.active{
+
+    color: var(--main_color);
+    font-weight: bold;
+}
+.super_container .PORTFOLIO .download{
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8) ) ,  url(../Imagies/promo/promo-bg.jpg);
+    background-size: cover;
+    line-height: 100px;
+    padding: 1px;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+.super_container .PORTFOLIO .download h1{
+    margin-top: 200px;
+}
+footer{
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  border-top: 3px solid gold;
+
+}
